@@ -1,5 +1,18 @@
 public class ifClass {
     public static void main(String[] args) {
+        boolean sunRisesInTheEast = true;
+        if (sunRisesInTheEast) {
+            System.out.println("we see the sun");}
+        else {
+            System.out.println("we don't see the sun");}
+
+    }
+        //boolean isRaining = true;
+       // if (isRaining) {
+          //  System.out.println("take an umbrella");}
+           // else {
+           // System.out.println("do not take umbrella");}}
+    }
         //if (20 > 18);
         //System.out.println("20 is greater than 18");
         //int x = 10;
@@ -29,10 +42,10 @@ public class ifClass {
            // System.out.println("Good day.");
        // } else {
            // System.out.println("Good evening.");}}}
-   int distance = 20;
-   if ( distance < 20) {
-       System.out.println("one mile");
-   } else {
-       System.out.println("two mile");}}}
+   //int distance = 20;
+   //if ( distance < 20) {
+       //System.out.println("one mile");
+  // } else {
+      // System.out.println("two mile");}}}
 
 
