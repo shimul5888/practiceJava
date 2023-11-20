@@ -1,10 +1,14 @@
 public class ifClass {
     public static void main(String[] args) {
-        boolean sunRisesInTheEast = true;
-        if (sunRisesInTheEast) {
-            System.out.println("we see the sun");}
-        else {
-            System.out.println("we don't see the sun");}
+        int time = 24;
+        String result = (time < 18 ) ? "Good day" : "Good night";
+        System.out.println(result);
+
+        //boolean sunRisesInTheEast = true;
+        //if (sunRisesInTheEast) {
+            //System.out.println("we see the sun");}
+        //else {
+            //System.out.println("we don't see the sun");}
 
     }
         //boolean isRaining = true;
