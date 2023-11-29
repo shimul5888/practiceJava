@@ -2,10 +2,10 @@ public class doWhile {
     public static void main(String[] args) {
         int x = 5;
         do {
-            System.out.println(x);
-            x++;
+            System.out.println("This is do loop");
+            break;
 
-        } while ( x < 100);
+        } while ( x < 10);
     }
 
 }
